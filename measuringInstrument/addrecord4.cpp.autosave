@@ -1,0 +1,14 @@
+#include "addrecord4.h"
+#include "ui_addrecord5.h"
+
+addrecord5::addrecord5(QWidget *parent) :
+    QWidget(parent),
+    ui(new Ui::addrecord5)
+{
+    ui->setupUi(this);
+}
+
+addrecord5::~addrecord5()
+{
+    delete ui;
+}
